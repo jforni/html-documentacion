@@ -52,6 +52,8 @@ Para eso debemos definir que la sección **\<body>\</body>**, por lo general, se
       <footer>Esto es el pie de página</footer>
     </body>
   ```    
+<img src="./assets/headerMainFooterEnWeb.jpg" />
+<br>
 Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamos a describir a continuación:
 
 * **\<nav>\</nav>**: el propósito de esta etiqueta es agrupar enlaces de navegación, ya sea hacia dentro del documento o a documentos externos
@@ -62,6 +64,7 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
       <a href="https://www.yahoo.com">Yahoo!</a>
     </nav>
   ```    
+  <img src="./assets/etNav.jpg"/>
 
 * **\<section>\</section>**: sirve para determinar que contenido corresponde a qué parte de un esquema. Es una etiqueta semántica, por lo que permite estructurar semánticamente un documento a la hora de ser representado.
   ```html
@@ -73,6 +76,8 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
     </article>
   </section>
   ```
+  <img src="./assets/etSection.jpg"/>
+
 * **\<article>\<article>**: representa a un elemento que se quiere que sea distribuíble y/o reutilizable de manera independiente, por ejemplo: un mensaje en un foro, un artículo de revista o periódico, una entrada de blog, un widget, o cualquier otro elemento de contenido independiente.
   ```html
   <article>
@@ -81,6 +86,8 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
     Ratione ipsa ipsam omnis architecto assumenda velit quasi beatae excepturi quidem non, similique culpa fuga hic nulla ullam sed fugit vitae. Tempora perspiciatis aliquid dicta doloribus, ab qui adipisci maxime!</p>
   </article>
   ```
+  <img src="./assets/etArticle.jpg"/>
+
 * **\<aside>\</aside>**: determina una sección de una página que abarca contenido que está indirectamente relacionado con el contenido principal del documento. Suele representarse como barras laterales y contener una explicación al margen como un glosario, publicidad, enlaces a blos relacionados, etc.
   ```html
   <aside>
@@ -88,6 +95,8 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
     <p>Esto se utiliza como columnas laterales para publicidad o índice</p>
   </aside>
   ```
+  <img src="./assets/etAside.jpg"/>
+
 * **\<h1>\</h1>, \<h2>\</h2>, \<h3>\</h3>, \<h4>\</h4>, \<h5>\</h5>, \<h6>\</h6>**: este tipo de etiquetas sirven para estableces encabezados o títulos, son 6 tipos que van de la más importante <strong>\<h1></strong> a la de menos impotancia <strong>\<h6></strong>.
   ```html
     <h1>Título 1</h1>
@@ -97,36 +106,48 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
     <h5>Título 5</h5>
     <h6>Título 6</h6>
   ```
+  <img src="./assets/etH.jpg"/>
 * **\<p>\</p>**: este tipo de etiqueta nos sirve para distribuir el texto en párrafos.
   ```html
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ut fuga perferendis corporis ea ab, esse iure, officiis soluta labore maiores illo animi deleniti error hic nam laborum officia repellendus.
     Eius debitis dolor, ullam doloribus eos quaerat cumque, nemo repudiandae perferendis commodi laboriosam voluptates et. Atque quas veniam fuga magnam doloribus, in facere saepe corporis quo, numquam, iure doloremque iusto!
     </p>
   ```
+  <img src="./assets/etP.jpg"/>
+
 * **\<b>\</b>**: con esta etiqueta ponemos en negrita todo el contenido textual que abarca.
   ```html
     <b>Este texto se mostrará en negrita</b>
   ```
-* <strong>\<br></strong>: sirve para establecer un salto de línea en el texto. Es útil para textos en donde la división de las líneas es importante.
+  <img src="./assets/etB.jpg"/>
+
+* **\<br>**: sirve para establecer un salto de línea en el texto. Es útil para textos en donde la división de las líneas es importante.
   ```html
     <p>Esto es una línea</p><br>
     <p>Esto está en la línea de abajo</p>
   ```
+  <img src="./assets/etBr.jpg"/>
+
 * **\<hr/>**: representa un cambio de tema entre párrafos. Suele representarse con una línea horizontal, y actualmente es definida en términos semánticos y no tanto en términos representativos.
   ```html
     <p>Este texto está arriba de la línea divisoria</p>
     <hr/>
     <p>Este texto está abajo de la línea divisoria</p>
   ```
+  <img src="./assets/etHR.jpg"/>
+
 * **\<a href="">\</a>**: con esta etiqueta creamos un enlace a otras páginas de internet, a archivos o a ubicaciones dentro de la misma página, a direcciones de correo o a cualquier otra URL.
   ```html
     <a href="https://www.google.com">Google</a>
   ```
+  <img src="./assets/etA.jpg"/>
+
 * **\<img src="">**: con esta etiqueta podemos insertar una imagen en el documento. Tiene que tener un atributo obligatorio que es src, este atributo nos especifica la URL de la imagen, esta URL puede ser externa o una dirección interna del proyecto.
   ```html
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2019_Chevrolet_Camaro_base%2C_front_11.9.19.jpg/1200px-2019_Chevrolet_Camaro_base%2C_front_11.9.19.jpg">
   ```
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2019_Chevrolet_Camaro_base%2C_front_11.9.19.jpg/480px-2019_Chevrolet_Camaro_base%2C_front_11.9.19.jpg">
+
 * **\<ol>\</ol>**: existen dos formas de establecer listas, una forma es con esta etiqueta en la que generamos listas ordenadas, ya sea numérica o alfabéticamente. 
   ```html
     <ol>
@@ -136,6 +157,8 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
       <li>item 4</li>
     </ol>
   ```
+  <img src="./assets/etOl.jpg"/>
+
 * **\<ul>\</ul>**: la otra opción de generar listas es con esta etiqueta, que nos permite crear una lista no ordenada.
   ```html
     <ul>
@@ -145,10 +168,14 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
       <li>item 4</li>
     </ul>
   ```
+  <img src="./assets/etUl.jpg"/>
+
 * **\<li>\</li>**: con esta etiqueta definimos cada item o elemento de una lista.
   ```html
     <li>item 1</li>
   ```
+  <img src="./assets/etLi.jpg"/>
+
 * **\<table>\</table>**: representa datos en dos o más dimensiones, creando la estructura de una tabla. Estas etiquetas abarcan otras que nos permiten incorporar elementos para el armado de la tabla.
   * **\<tr>\</tr>**: esta etiqueta define una fila de celdas en una tabla, incorpora elementos **\<td>** y **\<th>**
   * **\<th>\</th>**: con esta etiqueta definimos una celda como encabezado de un grupo de celdas en una tabla.
@@ -188,9 +215,7 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
     <a href="./assets/t-rex-roar.mp3"> Download audio </a>
   </audio>
 ```
-  <audio controls src="./assets/t-rex-roar.mp3">
-    <a href="./assets/t-rex-roar.mp3"> Download audio </a>
-  </audio>
+  <img src="./assets/etAudio.jpg"/>
 
 * **\<video>\</video>**: esta etiqueta es utilizada para insertar videos en el documento HTML.
 ```html
@@ -199,11 +224,8 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
     <source src="./assets/flower.mp4" type="video/mp4" />
   </video>
 ``` 
-  <video controls width="500">
-    <source src="./assets/flower.webm" type="video/webm" />
-    <source src="./assets/flower.mp4" type="video/mp4" />
-  </video>
-
+<img src="./assets/etVideo.jpg"/>
+  
 * **\<iframe>\</iframe>**: con esta etiqueta podemos insertar otra página HTML en la actual, es muy útil a la hora de insertar mapas, videos, etc.
 ```html
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10364.686746264202!2d-65.2123881727468!3d-26.835186883924028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1sit!2sar!4v1700835370873!5m2!1sit!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -248,4 +270,8 @@ Dentro de las etiquetas anteriores se pueden colocar otras, que son las que vamo
 
 <hr/>
 
-<!-- **Referencias**<a id='id4'></a> -->
+**Referencias**<a id='id4'></a>
+<br>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN</a></li><br>
+<li><a href="https://www.w3schools.com/html/default.asp">W3Schools</a></li><br>
+
